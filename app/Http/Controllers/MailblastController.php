@@ -23,7 +23,7 @@ class MailblastController extends Controller
 
         $body = Input::get('message');
     	$message = [
-    		'title' => 'Sample message',
+    		'title' => 'Message',
     		'body' => $body
     	];
         $data = [
